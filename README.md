@@ -13,7 +13,7 @@ git clone https://github.com/gbrl-mendes/projeto_dasa.git
 ```
 #### 2. Construa a imagem do projeto:
 ``` bash
-docker build -t projeto_dasa docker_dasa/
+docker build -t projeto_dasa projeto_dasa/docker_dasa/
 ```
 #### 3. Inicie o Container:
 ``` bash
