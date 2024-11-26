@@ -6,7 +6,7 @@ Este projeto implementa um pipeline desenvolvido para atender ao desafio do proc
 Os scripts desenvolvidos para a anotação estão disponíveis em `/projeto_dasa/annotation/scripts`.
 Os resultados da anotação são gerados no diretório `/projeto_dasa/annotation/results`.
 Os scripts desenvolvidos para a interface estão disponíveis em `/projeto_dasa/interface`.
-### Como Usar
+### Instruções
 #### 1. Clone o repositório:
 ``` bash
 git clone https://github.com/gbrl-mendes/projeto_dasa.git
