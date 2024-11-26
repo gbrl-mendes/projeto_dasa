@@ -25,11 +25,11 @@ snakemake --cores <X> #escolha um numero de cores de acordo com sua maquina
 ```
 O Snakefile executa todas as etapas de anotação do arquivo VCF fornecido para o desafio. Os resultados da anotação são disponibilizados no diretório `/projeto_dasa/annotation/results`.
 
-A última etapa, iniciada com a regra `get_frequencies`, envolve a recuperação das frequências populacionais das variantes, e é realizada por meio de um bash script que consulta o banco de dados NCBI SNP para obter as frequências. Este processo pode levar algumas horas, dependendo dos recursos disponíveis. Portanto, caso não queira aguardar, é possível interromper o pipeline. De qualquer forma, a interface conseguirá acessar os resultados, pois a anotação já foi previamente executada, e os resultados estão disponíveis no repositório `/projeto_dasa/interface/data`. Caso deseje visualizar os próprios resultados usando a interface, copie os arquivos ` NIST_dbSNPid_func_annot.vcf` e `NIST_ids_frequencies.txt` do diretório `/projeto_dasa/annotation/results` para o diretório `/projeto_dasa/interface/data`.
+A última etapa, iniciada com a regra `get_frequencies`, envolve a recuperação das frequências populacionais das variantes, e é realizada por meio de um bash script que consulta o banco de dados NCBI SNP para obter as frequências. Este processo pode levar algumas horas, dependendo dos recursos disponíveis. Portanto, caso não queira aguardar, é possível interromper o pipeline. De qualquer forma, a interface conseguirá acessar os resultados, pois a anotação já foi previamente executada, e os resultados estão disponíveis no repositório `/projeto_dasa/interface/data`. Caso deseje visualizar os próprios resultados usando a interface, copie os arquivos `NIST_dbSNPid_func_annot.vcf` e `NIST_ids_frequencies.txt` do diretório `/projeto_dasa/annotation/results` para o diretório `/projeto_dasa/interface/data`.
 
 5. **Inicie o servidor Flask**:
 ``` bash
-	python app.py
+python app.py
 ```
 6. **Acesse a interface:**
 	
