@@ -39,4 +39,4 @@ python app.py
 		http://<endereço_do_servidor>:8181
 
 ### Contato 
-Para mais informações, entre em contato comigo através do meu endereço [e-mail](mailto:gabrielmendesbrt@outllok.com) 😊
+Para mais informações, entre em contato comigo através do meu endereço de [e-mail](mailto:gabrielmendesbrt@outllok.com) 😊
